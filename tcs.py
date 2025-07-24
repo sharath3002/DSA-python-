@@ -2,39 +2,39 @@
 # Contents
 
 
-# 1. Problem on strays
+# 1. Problem on arrays
 # 2. Problem on Numbers
 # 3. Problem on Number System
 # 4. Problem on Sorting
 # 5. Problem on Strings
 
 
-# 1. Problems on strays
-# Find the smallest number in an stray
-# Find the largest number in an stray
-# Second Smallest and Second Largest element in an stray
-# Reverse a given stray
-# Count frequency of each element in an stray
-# Restrange stray in increasing-decreasing order
-# Calculate sum of the elements of the stray
-# Rotate stray by K elements - Block Swap Algorithm
-# Average of all elements in an stray
-# Find the median of the given stray
-# Remove duplicates from a sorted stray
-# Remove duplicates from unsorted stray
-# Adding Element in an stray
-# Find all repeating elements in an stray
-# Find all non-repeating elements in an stray
-# Find all symmetric pairs in stray
-# Maximum product substray in an stray
-# Replace each element of the stray by its rank in the stray
-# Sorting elements of an stray by frequency
-# Rotation of elements of stray- left and right
-# Finding equilibrium index of an stray
-# Finding Circular rotation of an stray by K positions
-# Sort an stray according to the order defined by another stray
-# Search an element in an stray
-# Check if stray is a subset of another stray or not
+# 1. Problems on arrays
+# Find the smallest number in an array
+# Find the largest number in an array
+# Second Smallest and Second Largest element in an array
+# Reverse a given array
+# Count frequency of each element in an array
+# Rearrange array in increasing-decreasing order
+# Calculate sum of the elements of the array
+# Rotate array by K elements - Block Swap Algorithm
+# Average of all elements in an array
+# Find the median of the given array
+# Remove duplicates from a sorted array
+# Remove duplicates from unsorted array
+# Adding Element in an array
+# Find all repeating elements in an array
+# Find all non-repeating elements in an array
+# Find all symmetric pairs in array
+# Maximum product subarray in an array
+# Replace each element of the array by its rank in the array
+# Sorting elements of an array by frequency
+# Rotation of elements of array- left and right
+# Finding equilibrium index of an array
+# Finding Circular rotation of an array by K positions
+# Sort an array according to the order defined by another array
+# Search an element in an array
+# Check if array is a subset of another array or not
 
 
 
@@ -129,7 +129,7 @@
 
 
 
-# smallest element in an stray
+# smallest element in an array
 
 # def find_smallest(str):
 #     if not str:
@@ -158,7 +158,7 @@
 #         return None
 
 # # str=[10,3,4,5]
-# # print("Smallest element in an stray is:",min(str))
+# # print("Smallest element in an array is:",min(str))
 
 # str = list(map(int, input("Enter numbers separated by space: ").split()))
 # print("Smallest element:",min(str))
@@ -195,13 +195,13 @@
 # print(largest_num(str))
             
             
-# reversing an stray
+# reversing an array
 
 # str=[4,3,2,1]
-# def reversed_stray(str):
+# def reversed_array(str):
 #     reversed_str=str[::-1]
 #     return reversed_str
-# print(reversed_stray(str))
+# print(reversed_array(str))
 
 
 
@@ -421,7 +421,7 @@
 # arr=[45,89,78,64,12,35,42,20,38]
 # odd_even(arr)
 
-# # even_no= sum(1 for num in arr if num%==0)
+
 
 
 
