@@ -1,7 +1,7 @@
 def second_largest(arr):
     if len(arr)<2:
         return None
-    first= second= float('-inf')
+    first= second= 0  #works only for positive numbers
     
     for num in arr:
         if num > first:
@@ -9,9 +9,9 @@ def second_largest(arr):
             first = num
         elif first>num>second:
             second=num
-    return second if second!=float('-inf') else None
+    return second #if second!=float('-inf') else None
 
-arr=[-5,7,-9,8,-58,85]
+arr=[-5,7,-9,8,-58,-85]
 print(second_largest(arr))
 
 
@@ -36,14 +36,15 @@ print(second_largest(arr))
 def second_largest(arr):
     if len(arr)<2:
         return None
-    first = second = float('-inf')
+    first= second= float('-inf')
+    
     for num in arr:
-        if num> first:
+        if num > first:
             second = first
             first = num
         elif first>num>second:
             second=num
-    return second if second!= float('-inf') else None
+    return second #if second!=float('-inf') else None # this snippet is not required here becoz it doesn't return float('-inf') if there is one element in an array since we used if loop if len(arr)<2: return None
 
-arr=[5,8,9,6,7]
+arr=[-8,-7,-10,-8,-8,-58,-85]
 print(second_largest(arr))

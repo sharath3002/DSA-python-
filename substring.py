@@ -1,20 +1,20 @@
 # Write a program to find a substring within a string. If found display its starting position
 
-# def find_substring(main_string, sub_string):
+def find_substring(main_string, sub_string):
     
-#     position = main_string.find(sub_string)
+    position = main_string.find(sub_string)
     
-#     if position != -1:
-#         print(f"Substring found at position {position}")
-#     else:
-#         print("Substring not found")
+    if position != -1:
+        print(f"Substring found at position {position}")
+    else:
+        print("Substring not found")
 
-# # Input
-# main_string = input("Enter the main string: ").strip()
-# sub_string = input("Enter the substring to search: ").strip()
+# Input
+main_string = input("Enter the main string: ").strip()
+sub_string = input("Enter the substring to search: ").strip()
 
-# # Function call
-# find_substring(main_string, sub_string)
+# Function call
+find_substring(main_string, sub_string)
 
 
 

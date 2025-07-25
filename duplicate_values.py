@@ -1,3 +1,5 @@
+#this code prints the duplicate values as well as array values
+
 def duplicate_values(arr):
     freq={}
     duplicate=set()
@@ -6,5 +8,5 @@ def duplicate_values(arr):
     freq[num]=freq.get(num,0)+1
     return duplicate
 
-arr=[1,2,5,1,4,1,8,8,8,4,4,5,5,2,2,1,0,0,0,0]
+arr=[1,2,3,4,2,1,2,3,4,5,6]
 print(duplicate_values(arr))

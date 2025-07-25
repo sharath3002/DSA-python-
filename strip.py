@@ -14,3 +14,6 @@ s = "xxxHelloxx"
 print(s[3:8]) 
 
 
+fruits = ["apple", "banana"]
+fruits.append("orange")
+print(fruits)
